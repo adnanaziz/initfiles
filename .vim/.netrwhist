@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/adnanaziz/Disc2/models'
+let g:netrw_dirhist_2='/Users/adnanaziz/discserver/disc2/public/assets/js/create'
+let g:netrw_dirhist_3='/Users/adnanaziz/Desktop/cal/euclid'
