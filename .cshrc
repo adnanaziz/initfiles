@@ -37,7 +37,7 @@ endif
 if ( $?prompt ) then
     # set prompt = "$hostname \!: " 
     # set prompt="[${red}%n${red}@%m ${white}%~ ]${end} "
-    alias prmpt 'set prompt="${red}[adnan-UT-office@$host]${red}${green}${cwd}${end} ! "'
+    alias prmpt 'set prompt="${blue}[adnan-UT-office@$host]${blue}${green}${cwd}${end} ! "'
     alias cd 'cd \!* ; prmpt'
 
 
@@ -81,5 +81,3 @@ source ~/.aliases
 # MacPorts Installer addition on 2013-09-24_at_12:27:05: adding an appropriate PATH variable for use with MacPorts.
 setenv PATH /opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
-
-
