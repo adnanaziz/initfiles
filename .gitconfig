@@ -1,0 +1,35 @@
+[user]
+	name = adnanaziz
+	email = adnan.aziz@gmail.com
+[core]
+	editor = vi
+
+[merge]
+	tool = vimdiff
+
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+
+[difftool]
+	prompt = true
+
+[mergetool]
+	prompt = false
+[github]
+	user = adnanaziz
+[credential]
+	helped = osxkeychain
+	helper = osxkeychain
+[push]
+	default = current
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
