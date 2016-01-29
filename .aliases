@@ -80,9 +80,9 @@ a mroe more
 a c clear
 a ls 'ls -G -F'
 a hi history 
-set host=`/bin/hostname | /usr/bin/sed 's/\..*$//'`
-alias prmpt 'set prompt="[adnan-UT-office@$host]${cwd} ! "'
-alias cd 'cd \!* ; prmpt'   
+set host=`/bin/hostname | sed 's/\..*$//'`
+# alias prmpt 'set prompt="[adnan-UT-office@$host]${cwd} ! "'
+# alias cd 'cd \!* ; prmpt'   
 set cdpath=(. /Volumes/My\ Book/ ~/github ~/papers ~/classes)
 alias xps gv
 
